@@ -1,0 +1,229 @@
+html, body { 
+	height: 100%; 
+	margin: 0; 
+	padding: 0; 
+}
+body {
+  	position: relative;
+  	background-image: url(../img/background.jpeg);
+	background-size: cover;
+	background-attachment: fixed;
+}
+.container-fluid {
+  padding-left: 0%;
+  padding-right: 0%;
+}
+.glyphicon:hover{
+	color: #FFCC00;
+}
+
+/***************** Sections *****************/
+
+.anchor h1{
+	color: #ff8080;
+	text-align: center;
+	/*margin: 5.5% 0;*/
+	font-family: Arial Rounded MT Bold, helvetica, sans-serif;
+}
+.anchor p{
+	font-family: helvetica , Arial, sans-serif;
+}
+.anchor{
+	padding-top: 3%;
+	width: 80%;
+	padding-bottom: 11%;
+}
+.anchor h2, h3{
+	-webkit-margin-before: 0;
+	font-family: Arial Rounded MT Bold, helvetica, sans-serif;
+	color: #00b2b3;
+}
+
+/***************** Nav bar *****************/
+
+.navbar{
+	min-height: 0;
+}
+.navbar-brand{
+	font-family: Zapf Chancery, cursive, helvetica, sans-serif;
+}
+.navbar a{
+	color: white;
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
+	font-weight: bold;
+	text-decoration: none;
+	padding-right: 1%;
+}
+.navbar li{
+	float: right;
+}
+.nav{
+    padding-right: 2%;
+}
+.navbar-brand{
+    position: absolute;
+    width: 100%;
+    left: 2%;
+    text-align: left;
+    margin: auto;
+}
+.navbar-inverse .navbar-brand{
+    color: #ffffcc;
+}
+.navbar-inverse .navbar-nav>li>a {
+    color: #ffcccc;
+}
+
+/***************** home page *****************/
+
+/***************** About page *****************/
+
+
+#about img{
+	width: 100%;
+	border: 0.76em dotted #FFCC00;
+}
+#intro h2{
+	font-size: 3em;
+}
+#intro p{
+	font-size: 2em;
+	font-weight: 100;
+}
+#about .row{
+	padding: 3%;
+}
+
+/***************** Work page *****************/
+
+#work{
+	text-align: center;
+}
+#work .row{
+	padding-top: 1%;
+
+}
+.img-responsive {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.work-img {
+  display: block; 
+  margin: auto; 
+  max-width: 200px; 
+  position: relative; 
+}
+.info {
+  position: absolute;
+  top: 15%;
+  left: 22%;
+  display: none;
+  color:#fff;
+  font-family: Futura;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 0.5em;
+  line-height: 1.6;
+}
+.proj-title {
+  font-weight: 100;
+}
+
+/***************** Contact page *****************/
+
+#contact .data, label{
+	color: #666699;
+}
+.email a{
+	font-weight: bold;
+}
+#contact .row{
+	padding: 0% 2% 3%;
+}
+.address1 p{
+	font-weight: bold
+}
+.social{
+	display: inline-block;
+}
+.social img{
+	width: 2.5em;
+	height: 2.5em;
+}
+.social img:hover{
+    opacity: 0.6;
+}
+.message{
+	padding-top: 1%;
+}
+#contact .col-md-6{
+	padding-top: 5%
+}
+form{
+	padding-top: 2%;
+}
+#map {
+  height: 300px;
+  width: 100%;
+}
+
+/***************** Faqs page *****************/
+
+#faq{
+	background-image: url(../img/faq.jpg); 
+	background-size: cover;
+	background-attachment: fixed;
+}
+#faq .row{
+	margin: 4% 2%;
+}
+.learn-more{
+	float: left;
+}
+.modal-button{
+	float: right;
+	padding: 1%;
+}
+#resumeid{
+	height: 800px;
+	width: 100%;
+	padding: 1%;
+}
+.questions h3{
+	margin: 4% 2%;
+	color: #606060;
+	padding-bottom: 2%;
+	width: 85%;
+}
+.questions h4{
+	color: #d98cb3;
+	text-decoration: none;
+	padding-top: 1.5%;
+}
+.panel-body{
+	color: #666699;
+	font-size: 1.1em;
+	font-family: helvetica , Arial, sans-serif;
+}
+#up h2{
+	padding: 10% 5% 0 0;
+	float: right;
+}
+
+/***************** Footer *****************/
+
+.ftr{
+	background-color: black;
+	text-align: center;
+	opacity: 0.5;
+}
+.ftr{
+	color: white;
+}
+.ftr .row{
+	display: inline-block;
+	padding: 0 2%;
+}
+

@@ -1,0 +1,72 @@
+body{
+	background-image: url(../img/contact.png);
+	background-size: cover;
+
+}
+.nav{
+	top:0;
+	width:100%;
+	position: fixed;
+	background-color: black;
+	background-size: cover;
+}
+.nav ul li{
+	padding: 0px 10px 10px;
+	display: inline-block;
+	float: right;
+}
+.nav a{
+
+	vertical-align: center;
+	color:white;
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
+	font-weight: bold;
+	text-decoration: none
+}
+.nav a:hover{
+	color: #FFCC00;
+	text-decoration: none;
+	-webkit-transition: color 600ms;
+}
+.header h1{
+	padding-top: 70px;
+	text-align: center;
+}
+.container{
+	width:40%;
+	margin: 0 auto;
+}
+h1{
+	margin: 40px 0;
+	text-align:center;
+	color:#FFCC00;
+	font-family: Arial Rounded MT Bold, helvetica, sans-serif;
+}
+h2{
+	color:#FF0000;
+	font-family: sans-serif, Arial, helvetica;
+
+}
+.enquiry a{
+	font-weight: bold;
+	color: #009900;
+}
+.row{
+	padding-top: 20px;
+}
+.address1 p{
+	color:#009900;
+	font-weight: bold
+}
+p{
+	font-family: helvetica , Arial, sans-serif;
+}
+.social{
+	display:inline-block;
+}
+.social img{
+	width: 60px;
+	height: 60px;
+}
+

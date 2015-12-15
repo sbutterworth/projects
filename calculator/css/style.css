@@ -1,0 +1,47 @@
+body {
+  	position: relative;
+  	background-image: url(../img/background1.jpeg);
+	background-size: cover;
+	background-attachment: fixed;
+}
+.container{
+	padding: 5%;
+	text-align: center;
+	width: 60%;
+}
+h1{
+	color: salmon;
+}
+.calc{
+	padding: 10%;
+}
+.row{
+	padding-top: 5%;
+	display: inline-block;
+}
+.btn-large{
+	background-color: #595959;
+	padding: 18px 28px;
+    font-size: 3em; /*//change this to your desired size*/
+    line-height: normal;
+    -webkit-border-radius: 12px;
+       -moz-border-radius: 12px;
+            border-radius: 12px;
+
+}
+#output-area{
+	padding:10%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
