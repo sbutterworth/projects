@@ -33,12 +33,26 @@ body{
 // .navbar-inverse .navbar-brand:focus {
 //     color: #ffff4d;
 // }
-h1{
+.container h1{
 	color: #333333;
 }
-h2{
+.container h2{
 	color: lightSeaGreen;
 }
-p{
+.container p{
 	color: rebeccaPurple;
+}
+//***************** footer *******************
+.ftr{
+	background-color: #ff00ff;
+	text-align: center;
+	opacity: 0.6;
+}
+.ftr p{
+	color: white;
+
+}
+.ftr .row{
+	display: inline-block;
+	padding: 0 2%;
 }
